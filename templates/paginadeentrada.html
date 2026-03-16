@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Entrada</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <a href="../Codigos/menu.html">
+   <button 
+    
+    style="position: absolute; 
+          top: 7%;
+          right: 80%;
+          height: 100px;
+          width: 336px;
+          border-radius: 50px;   
+          opacity: 0
+
+ ">
+    Voltar
+     </button>
+    </a>
+
+    <img src="Voltar.jpg" class="logo">
+    
+       <input type="text" id= "mod" placeholder="item solicitado" value="" style="
+    font-size: 50px;
+    position: absolute; 
+    height: 100px; 
+    width: 600px; 
+    right: 32%; 
+    top: 60%; 
+    border-radius: 50px; 
+    border: 2px solid #005caa; 
+    padding: 0 25px; 
+    outline: none;
+ ">
+     <button 
+    onclick="dispararAlerta()" 
+    style="position: absolute; 
+          top: 86%;
+          right: 40%;
+          height: 90px;
+          width: 336px;
+          border-radius: 50px;   
+          opacity: 0
+
+ ">
+    Solicitar Item
+     </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+    function dispararAlerta() {
+        Swal.fire({
+            title: 'Sucesso!',
+            text: 'Item solicitado com sucesso',
+            icon: 'success',
+            confirmButtonText: 'Entendido'
+        });
+    }
+</script>
+   
+   
+    </div>
+    
+
+</body>
+</html>

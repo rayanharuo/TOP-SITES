@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(img/tela1.png);
+    background-repeat: no-repeat; 
+    background-position:top;
+   
+    background-size: cover
+    
+}
+
+h1{
+  background-color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 710px;
+  border-radius: 50px;
+}
+
+.voltar{
+position: absolute;
+width: 300px; 
+height: 90px;
+border: 1px;
+    border-color: #00437e;
+    border-radius: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.voltar{
+    font-size: 70px; 
+    color:#ffffff;
+    background-color: #00437e;
+    border: none;
+    border:  5px solid #00437e;
+    padding: 1px 20px;
+    border-radius: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.adicionar{
+position: absolute;
+right: 870px;
+top: 110px;
+width: 250px; 
+height: 36px;
+border: 1px;
+    border-color: #00437e;
+    border-radius: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.adicionar{
+    font-size: 20px; 
+    color:#ffffff;
+    background-color: #00437e;
+    border: none;
+    border:  5px solid #00437e;
+    border-radius: 5px;
+    padding: 4px 20px;
+    border-radius: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
